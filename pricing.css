@@ -1,0 +1,387 @@
+html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 4rem 5rem;
+}
+
+h1 {
+    font-family: 'Birthstone Bounce';
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 0;
+    color: rgb(0, 0, 48);
+    --s: 60px;
+
+    --_g: #0000 83%, #b09f79 85% 99%, #0000 101%;
+    background: radial-gradient(27% 29% at right, var(--_g)) calc(var(--s)/ 2) var(--s),
+        radial-gradient(27% 29% at left, var(--_g)) calc(var(--s)/-2) var(--s),
+        radial-gradient(29% 27% at top, var(--_g)) 0 calc(var(--s)/ 2),
+        radial-gradient(29% 27% at bottom, var(--_g)) 0 calc(var(--s)/-2) #476074;
+    background-size: calc(2*var(--s)) calc(2*var(--s));
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 100px;
+}
+
+h3 {
+    font-family: 'Shadows Into Light';
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+    color: #b09f79;
+}
+
+.links-div a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Shadows Into Light';
+    font-size: 24px;
+    margin-left: 400px;
+    color: rgb(0, 0, 48);
+}
+
+.price_links-div a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Shadows Into Light';
+    font-size: 24px;
+    margin-left: 530px;
+    color: rgb(0, 0, 48);
+}
+
+.welcome-div,
+.exclaimer {
+    background-color: #476074;
+    font-family: 'Shadows Into Light';
+    font-size: 32px;
+    color: #b09f79;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: left;
+}
+
+.welcome-div-image {
+    padding: 20px;
+}
+
+.basicCakePricing {
+    background-color: #476074;
+    font-family: 'Shadows Into Light';
+    font-size: 32px;
+    color: #b09f79;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: left;
+}
+
+.basicCookiePricing {
+    font-family: 'Shadows Into Light';
+    font-size: 32px;
+    color: #b09f79;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: left;
+}
+
+.basic_cupCake_prices {
+    font-family: 'Shadows Into Light';
+    font-size: 32px;
+    background-color: #476074;
+    color: #b09f79;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: left;
+}
+
+#basic_cake_prices {
+    font-size: 42px;
+    padding: 10px;
+    margin-left: 840px;
+    margin-top: -10px;
+}
+
+#basic_cookie_prices {
+    font-size: 42px;
+    padding: 10px;
+    margin-left: 920px;
+    margin-top: -10px;
+}
+
+#basic_cupCake_prices {
+    font-size: 42px;
+    padding: 10px;
+    margin-left: 920px;
+    margin-top: -10px;
+}
+
+#basic_cakeSicle_prices {
+    font-size: 42px;
+    padding: 10px;
+    margin-left: 840px;
+    margin-top: -10px;
+}
+
+#basic_berries_prices {
+    font-size: 42px;
+    padding: 10px;
+    margin-left: 750px;
+    margin-top: -10px;
+}
+
+#basic_treatBoxes {
+    margin-left: 875px;
+    margin-top: -10px;
+}
+
+#treatBox_para {
+    margin-left: -975px;
+    margin-top: 60px;
+}
+
+#list {
+    margin-top: 150px;
+    margin-left: -1200px;
+    padding-bottom: 75px;
+}
+
+.prod_qty_price {
+
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: #b09f79;
+    margin-top: 100px;
+    margin-left: -100px;
+    display: flex;
+    flex-wrap: left;
+
+}
+
+.cake_data_row {
+
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: #b09f79;
+    margin-top: 70px;
+    margin-left: -530px;
+    display: flex;
+    flex-wrap: left;
+
+}
+
+.berry_data_row {
+
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: #b09f79;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: left;
+
+}
+
+.cookie_data_row {
+
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: #b09f79;
+    margin-top: 70px;
+    margin-left: -430px;
+    display: flex;
+    flex-wrap: left;
+
+}
+
+.cakeSicle_data_row {
+
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: #b09f79;
+    margin-top: 70px;
+    margin-left: -570px;
+    display: flex;
+    flex-wrap: left;
+
+}
+
+.berry_data_row {
+
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: #b09f79;
+    margin-top: 70px;
+    margin-left: -600px;
+    display: flex;
+    flex-wrap: left;
+
+}
+
+.qty {
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-right: 100px;
+}
+
+.cookie_qty_1 {
+    padding-left: 350px;
+    padding-right: 250px;
+    margin-right: 100px;
+}
+
+.cookie_qty_2 {
+    padding-left: 170px;
+    padding-right: 250px;
+    margin-right: 100px;
+}
+
+.cupCake_qty_1 {
+    padding-left: 270px;
+    padding-right: 250px;
+    margin-right: 120px;
+}
+
+.cupCake_qty_2 {
+    padding-left: 170px;
+    padding-right: 250px;
+    margin-right: 80px;
+}
+
+.cupCake_qty_2 {
+    padding-left: 170px;
+    padding-right: 290px;
+    margin-left: 70px;
+}
+
+.cupCake_qty_3 {
+    padding-left: 170px;
+    padding-right: 370px;
+    margin-left: 40px;
+}
+
+#cakeSicle_qty_1 {
+    padding-right: 370px;
+    margin-left: 260px;
+}
+
+#cakeSicle_qty_2 {
+    padding-left: 170px;
+    padding-right: 370px;
+    margin-left: 65px;
+}
+
+#cakeSicle_qty_3 {
+    padding-left: 170px;
+    padding-right: 370px;
+    margin-left: 35px;
+}
+
+#berry_qty_1 {
+    padding-left: 170px;
+    padding-right: 370px;
+    margin-left: 110px;
+}
+
+#berry_qty_2 {
+    padding-left: 170px;
+    padding-right: 370px;
+    margin-left: 95px;
+}
+
+#berry_qty_3 {
+    padding-left: 170px;
+    padding-right: 370px;
+    margin-left: -35px;
+}
+
+#berry_qty_4 {
+    padding-left: 170px;
+    padding-right: 370px;
+    margin-left: 25px;
+}
+
+#berry_qty_5 {
+    padding-left: 170px;
+    padding-right: 370px;
+    margin-left: 110px;
+}
+
+.cake_rows {
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: #b09f79;
+    margin-top: 30px;
+    margin-left: -530px;
+    display: flex;
+    flex-wrap: left;
+}
+
+.cookie_rows {
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: #b09f79;
+    margin-top: 30px;
+    margin-left: -450px;
+    display: flex;
+    flex-wrap: left;
+}
+
+.cupCake_rows {
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: #b09f79;
+    margin-top: 30px;
+    margin-left: -430px;
+    display: flex;
+    flex-wrap: left;
+}
+
+.berry_rows {
+
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: #b09f79;
+    margin-top: 30px;
+    margin-left: -600px;
+    display: flex;
+    flex-wrap: left;
+
+}
+
+.exclaimer {
+    justify-content: center;
+    height: 75px;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.exclaimerAlt {
+    justify-content: center;
+    height: 75px;
+    align-items: center;
+    margin-top: -5px;
+    font-family: 'Shadows Into Light';
+    font-size: 32px;
+    color: #b09f79;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: left;
+}
+
+.cake-data {
+    margin-left: -50px;
+}
+
+.cakeSicle-data {
+    margin-left: -120px;
+}

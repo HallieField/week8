@@ -1,0 +1,51 @@
+html {
+    font-family: 'Shadows Into Light';
+}
+
+h1 {
+    font-family: 'Birthstone Bounce';
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 0;
+    color: rgb(0, 0, 48);
+    --s: 60px;
+
+    --_g: #0000 83%, #b09f79 85% 99%, #0000 101%;
+    background: radial-gradient(27% 29% at right, var(--_g)) calc(var(--s)/ 2) var(--s),
+        radial-gradient(27% 29% at left, var(--_g)) calc(var(--s)/-2) var(--s),
+        radial-gradient(29% 27% at top, var(--_g)) 0 calc(var(--s)/ 2),
+        radial-gradient(29% 27% at bottom, var(--_g)) 0 calc(var(--s)/-2) #476074;
+    background-size: calc(2*var(--s)) calc(2*var(--s));
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.orderform_links-div a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Shadows Into Light';
+    font-size: 24px;
+    margin-left: 580px;
+    color: rgb(0, 0, 48);
+}
+
+.order-para-div {
+    font-family: 'Birthstone Bounce';
+    text-align: center;
+    font-size: 48px;
+    margin-top: 100px;
+    color: rgb(0, 0, 48);
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 24px;
+    background-color: #476074;
+    color: #b09f79;
+    padding: 50px;
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+}
